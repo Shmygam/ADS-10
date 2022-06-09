@@ -5,7 +5,7 @@
 #include <string>
 
 class Tree {
-private:
+ private:
     struct Node {
         char value;
         std::vector<Node*> lowerNode;
@@ -50,7 +50,7 @@ private:
         }
     }
 
-public:
+ public:
     explicit Tree(std::vector<char> value) {
         first = new Node();
         first->flag = true;
