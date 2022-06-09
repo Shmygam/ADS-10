@@ -48,6 +48,7 @@ class Tree {
         for (int i = 0; i < first->lowerNode.size(); ++i) {
             createTree(first->lowerNode[i], tempChar);
         }
+     return 0;
     }
 
  public:
